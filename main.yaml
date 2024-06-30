@@ -25,7 +25,7 @@ kind: Service
 metadata:
  name: javawebsvc
 spec:
- type: NodePort
+ type: ClusterIP
  selector:
   app: javawebapp
  ports:
