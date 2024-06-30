@@ -25,7 +25,7 @@ kind: Service
 metadata:
  name: javawebsvc
 spec:
- type: LaodBalancer
+ type: NodePort
  selector:
   app: javawebapp
  ports:
