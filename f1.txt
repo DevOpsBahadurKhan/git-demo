@@ -1,2 +1,3 @@
 we add new line
+this is nice line from dev-1
 
