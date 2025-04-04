@@ -4,7 +4,7 @@ kind: Deployment
 metadate:
   name: app_deployment
 spce:
-  replicas: 2
+  replicas: 1
   selector:
     matchLables:
       app: javawebapp
